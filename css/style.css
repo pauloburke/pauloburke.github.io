@@ -265,7 +265,7 @@ margin-top: 26px
 
 }
 .about .bnt-about a:hover {
-color: #f3f3f3;
+ color: #f3f3f3;
  box-shadow: none
 }
 /*========== End About ===========*/
@@ -333,6 +333,21 @@ padding: 18px 16px 0
  font-size: 18px
 }
 
+.publications .year {
+ margin-top:50px;
+ color:#389A48;
+}
+
+.publications .year h3 {
+ color:#389A48;
+}
+
+.publications .doi{
+ float:right;
+ margin-bottom: 10px;
+ color:#389A48;
+}
+
 /*========== End Works ===========*/
 /*========== Start Resume ===========*/
 .resume {
@@ -389,11 +404,11 @@ margin-top: 57px
  clear: both
 }
 .resume .ex-block-right {
-float: right
+float: right;
 }
 .resume .ex-block-left {
 float: left;
- direction: rtl
+ direction: rtl;
 }
 .resume .marker {
  width: 23px;
@@ -407,13 +422,14 @@ float: left;
 width: 94% ;
 padding: 18px 16px 0
 }
-.resume .ex-content span {
+.resume .ex-content span{
  font-weight: 600;
  letter-spacing: 1px;
  display: block;
  margin: 10px 0;
  font-size: 18px
 }
+
 .resume .marker-head {
 z-index: 9
 }
@@ -431,7 +447,7 @@ z-index: 9
 
 /*=========== Start Footer ===========*/
 footer {
-padding: 26px 0 2px
+padding: 26px 0 2px;
 }
 footer h2 {
  margin-bottom: 17px;
@@ -440,15 +456,13 @@ footer h2 {
  color: #efefef
 }
 footer .icon-style {
-margin: 3px 11px
+margin: 3px 11px 20px;
+
 }
-.rights {
-font-size:13px
-}
-.rights a {
-color: #222
-}
-/*=========== End Footer ===========*//*=========== Start Loading ===========*/.loading-over {
+
+/*=========== End Footer ===========*/
+/*=========== Start Loading ===========*/
+.loading-over {
  background:#333;
  color: #fff;
  position: fixed;
